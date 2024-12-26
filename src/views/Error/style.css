@@ -1,0 +1,12 @@
+.error-container {}
+
+.error-title {
+    font-size: 56px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.error-description {
+    font-size: 28px;
+    margin: 0;
+}

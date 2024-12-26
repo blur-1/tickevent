@@ -1,0 +1,28 @@
+.navbar-container {
+  border-radius: 4rem;
+  border: 0.1rem solid gray;
+  padding: 0 2rem;
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap:1rem;
+}
+.navbar-container h1 {
+  font-size: 1.5rem;
+}
+.navbar-container input {
+  padding: 0.5rem 1rem;
+  border-radius: 4rem;
+  border: none;
+  width: 10rem;
+}
+.navbar-mi-perfil{
+display: none;
+}
+@media(min-width:768px){
+.navbar-mi-perfil{
+display: inline-block;
+margin-left: 1rem;
+}
+}
